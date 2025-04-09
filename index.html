@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carel Ceri | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <div class="px-5 py-5 text-center bg-dark min-vh-100 d-flex flex-column justify-content-center" 
+  style="background-image: url('images/heroBackground.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;"> 
+  <!--add background image (only if you want)-->
+      <img class="d-block mx-auto mb-4 responsive-img" src="images/logo carel.png" alt="">
+  
+      <h1 class="display-5 fw-bold text-body-emphasis text-white" style="color: white !important;">- Web Developer -</h1><br>
+  
+      <div class="container"> <!-- Added container for proper padding -->
+          <div class="row justify-content-center">
+              <div class="col-lg-6 col-md-8 col-sm-10"> <!-- Adjust column width for better responsiveness -->
+                  <!-- <p class="lead mb-4 text-white" style="text-align: justify; text-justify: inter-word;">
+                    I am a freelance web developer. My skills are HTML, CSS, Javascript, and Bootstrap. I am a creative, critical thinker, adaptive, thorough, and collaborative person. I hope my skills and experience allow me the opportunity to work with you and contribute to your projects
+                  </p><br> -->
+
+                  <br>
+
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                      <button type="button" class="btn btn-outline-secondary btn-lg px-4 text-white" onclick="goToAboutMe()">About Me</button>
+                      <button type="button" class="btn btn-primary btn-lg px-4 gap-3" onclick=" goToProjects()">See My Works</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+          <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="images/logo carel.png" alt="Logo" class="logo-img">
+          </a>
+  
+          <!-- Navbar Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 text-center">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#section_aboutMe" style="font-size: 1.5rem;">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section_skills" style="font-size: 1.5rem;">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section_certificates" style="font-size: 1.5rem;">Certificates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section_experiences" style="font-size: 1.5rem;">Experiences</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#section_projects" style="font-size: 1.5rem;">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#section_contact" style="font-size: 1.5rem;">Contact</a>
+                </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+  
+    <section class="container my-5" id="section_aboutMe">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-8 col-md-6 text-center">
+          <h1>About Me</h1>
+            <p>I am a freelance web developer. My skills are HTML, CSS, Javascript, and Bootstrap. Certifications / Achievements that i have is 
+              <span style="color: blue; cursor: pointer; font-weight: bold;" onclick="goToCertificate()">the certificate of International Collegiate Programming Contest (ICPC) Asia Jakarta Indonesia National Contest, 2020 (Rank 70 out of 700 teams,national level)</span> and <span style="color: blue; cursor: pointer; font-weight: bold;" onclick="goToToefl()">TOEFL</span>.I am a creative, critical thinker, adaptive, thorough, and collaborative person.</p>
+            <p>My work experience is i had a certified internship at Binus SOCS (2021-2022) as an application developer, certified internship at Binus SOCS & Kedaireka (2022 - 2023) as an application developer, freelance web developer (2024 - now), and tech entrepreneur (now). For more detail, you can download my CV by clicking the button below </p>    
+
+          <a href="CV Carel .pdf" target="_blank" download><button class="btn btn-success w-50">My CV</button></a><br> 
+        </div>
+      </div>
+    </section><hr>
+
+
+    <section class="container-fluid px-0 my-5" id="section_skills">
+      <div class="row justify-content-center mx-0">
+        <div class="col-12 px-0">
+          <div class="w-100 text-center">
+            <h1 class="mb-4">Skills</h1>
+    
+            <h3>HTML</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 100%">100%</div>
+            </div><br>
+    
+            <h3>CSS</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 90%">90%</div>
+            </div><br>
+    
+            <h3>JavaScript</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 80%">80%</div>
+            </div> <br>
+
+            <h3>TypeScript</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 80%">80%</div>
+            </div> <br>
+
+            <h3>Bootstrap</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 85%">85%</div>
+            </div><br>
+
+            <h3>React</h3>
+            <div class="progress mx-auto" style="width: 50%;" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar d-flex align-items-center justify-content-center" style="width: 85%">80%</div>
+            </div><br>
+    
+          </div>
+        </div>
+      </div>
+    </section><hr>
+
+    
+    <section class="container-fluid px-0 my-5" id="section_certificates">
+      <div class="row justify-content-center mx-0">
+        <h1 class="mb-4 text-center">Certificates</h1>
+        <div id="div_certificates">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/sertifikat icpc.jpeg" class="d-block w-100" alt="..." style="border: 5px solid #555;">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sertifikat toefl.jpg" class="d-block w-100" alt="..." style="border: 5px solid #555;">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section><hr>
+   
+    
+    <section id="section_experiences" class="my-5">
+        <div class="container text-center">
+          <h1 class="mb-4">Experiences</h1>
+          <div class="timeline">
+              <div class="timeline-item left">
+                  <div class="timeline-content">
+                      <h5 style="text-align: justify; text-justify: inter-word;">Application Developer <span style="font-weight: lighter;">(Internship)</span></h5>
+                      <p style="text-align: justify; text-justify: inter-word;">Binus SOCS - (2022)</p>
+                      <p style="text-align: justify; text-justify: inter-word;">Developing AR (Augmented Reality) in the form of glasses filters using Spark AR Studio</p>
+                  </div>
+              </div>
+    
+              <div class="timeline-item right">
+                  <div class="timeline-content">
+                      <h5 style="text-align: justify; text-justify: inter-word;">Application Developer <span style="font-weight: lighter;">(Internship)</span></h5>
+                      <p style="text-align: justify; text-justify: inter-word;">Binus SOCS & Kedaireka- (2022 - 2023)</p>
+                      <p style="text-align: justify; text-justify: inter-word;">Developing a Central Jakarta flood map using geospatial data with QGIS</p>
+                  </div>
+              </div>
+    
+              <div class="timeline-item left">
+                  <div class="timeline-content">
+                      <h5 style="text-align: justify; text-justify: inter-word;">Freelance Web Developer</h5>
+                      <p style="text-align: justify; text-justify: inter-word;">(2024 - now)</p>
+                      <p style="text-align: justify; text-justify: inter-word;">Developing websites for clients</p>
+                  </div>
+              </div>
+    
+              <!-- <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h5 style="text-align: justify; text-justify: inter-word;">Tech Entrepreneur</h5>
+                    <p style="text-align: justify; text-justify: inter-word;">(2025)</p>
+                    <p style="text-align: justify; text-justify: inter-word;">Running a digital product business</p>
+                </div>
+            </div> -->
+          </div>
+        </div>  
+    </section><hr>
+    
+    <section class="container my-5" id="section_projects">
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-8 col-md-6 text-center">
+          <h1>Projects</h1><br>
+          
+          <h3 onclick="showProjectDetail(this)" class="text-center mb-4" style="color: #0000EE; text-decoration: underline; cursor: pointer; text-decoration-color: #0000EE;">
+            1. Ubersnap Image Editor
+          </h3>
+          
+          <div style="display: none;" class="project-detail">
+            <div id="project1Carousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/ubernsnap-image-editor-image7.png" alt="Project 1 Image 1" class="d-block w-100">
+                </div>
+                <!-- <div class="carousel-item">
+                  <img src="images/leeseo.jpg" alt="Project 1 Image 2" class="d-block w-100">
+                </div> -->
+              </div>
+              <!-- <button class="carousel-control-prev" type="button" data-bs-target="#project1Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#project1Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button> -->
+            </div>
+            <p>Ubersnap Image Editor is a project I created to apply for a frontend developer job at Ubersnap. In this website, users can upload an image to be edited by adjusting the filter, brightness, contrast, and so on. After that, users can download the result by clicking the "download image" button</p>
+            <p>To create this project, I used HTML and CSS for the layout and styling, and TypeScript with React for interactivity and functionality</p>
+            <a href="https://carel180301.github.io/ubersnap-image-editor/" target="_blank"><button class="btn btn-primary w-50 mb-5">See the project</button></a>
+          </div>
+
+        </div>
+      </div>
+    </section><br>
+    
+    <footer class="bg-dark text-white text-center" id="section_contact">
+      <br>
+      <h1>Contact Me</h1>
+      <i class="bi bi-linkedin" style="cursor: pointer;" onclick="goToLinkedin()"></i>
+      <i class="bi bi-instagram" style="cursor: pointer;" onclick="goToInstagram()"></i>
+      <i class="bi bi-whatsapp" style="cursor: pointer;" onclick="goToWhatsapp()"></i>
+      <i class="bi bi-envelope-at-fill" style="cursor: pointer;" onclick="goToEmail()"></i>
+      <h2 class="my-4">© 2025 Carel Ceri </h2>
+      <br>
+    </footer>
+
+    <script>
+      function showProjectDetail(element) {
+        let projectDetail = element.nextElementSibling;
+        projectDetail.style.display = (projectDetail.style.display === "none" || projectDetail.style.display === "") ? "block" : "none";
+      }
+    </script>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
